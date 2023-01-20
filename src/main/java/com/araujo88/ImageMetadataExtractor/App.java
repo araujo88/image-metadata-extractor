@@ -1,4 +1,4 @@
-package app;
+package com.araujo88.ImageMetadataExtractor;
 
 import com.drew.imaging.ImageMetadataReader;
 import com.drew.imaging.ImageProcessingException;
@@ -18,7 +18,7 @@ import java.io.IOException;
 public class App {
     public static void main(String[] args) throws ImageProcessingException, IOException {
         if (args.length != 1) {
-            System.err.println("Expected a single argument of the path to the images to be processed.");
+            System.err.println("Expected a single argument of the path to the image to be processed.");
             System.exit(1);
         }
 
